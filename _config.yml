@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               Wei Jing
 tagline:             'After all, tomorrow is another day!'
-description:         'Welcome, My Name is Wei Jing and I am web developer who living in New Zealand.'
+description:         'Hi, My Name is Wei Jing and I am a web developer who living in New Zealand.'
 url:                 http://wei.jing.ninja
 baseurl:             'http://wei.jing.ninja'
 paginate:            5

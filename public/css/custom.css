@@ -10,3 +10,25 @@
   text-decoration: none;
   padding-right: 10px;
 }
+.footer{
+  border-top: 1px solid #eee;
+  font-size: 0.8rem;
+  padding: 12px 0 12px 0;
+  color: #777;
+  text-align: center;
+}
+.footer ul{
+  list-style: none;
+  text-align: center;
+  margin-bottom: 0;
+}
+.footer ul li{
+  display: inline;
+  padding-right: 5px;
+}
+.footer ul li a{
+  color:#999999;
+}
+.footer ul li a:hover{
+  color:#268bd2;
+}

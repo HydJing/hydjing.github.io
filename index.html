@@ -3,36 +3,62 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<div class="homepage">
+	<link rel="stylesheet" type="text/css" href="/public/css/homepage.css">
+	<aside class="profile-card">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+		<header>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
+			<!-- here’s the avatar -->
+			<a href="/about">
+				<img src="/public/img/profileLogo.png" />
+			</a>
+
+			<!-- the username -->
+			<h1>Wei Jing</h1>
+
+			<!-- and role or location -->
+			<h2>Web Developer</h2>
+
+		</header>
+
+		<!-- bit of a bio; who are you? -->
+		<div class="profile-bio">
+
+			<p>Hi, my name is Wei Jing, you also can call me Hyd. Currently I am work with Magento and Codeigniter Framwork. And I want to be a full stack web developer.</p>
+
+		</div>
+
+		<!-- some social links to show off -->
+		<ul class="profile-social-links">
+
+			<!-- twitter - el clásico  -->
+			<li>
+				<a href="/about">
+					<i class="fa fa-user-plus fa-lg"></i>
+				</a>
+			</li>
+
+			<!-- envato – use this one to link to your marketplace profile -->
+			<li>
+				<a href="/blog">
+					<i class="fa fa-book fa-lg"></i>
+				</a>
+			</li>
+
+			<!-- codepen - your codepen profile-->
+			<li>
+				<a href="/fun">
+					<i class="fa fa-beer fa-lg"></i>
+				</a>
+			</li>
+
+			<!-- add or remove social profiles as you see fit -->
+
+		</ul>
+
+	</aside>
+
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
 

@@ -24,4 +24,4 @@ version:             1.1.0
 #customized the blog path for posts
 paginate_path: "/blog/page:num"
 encoding: utf-8
-highlighter: rouge
+highlighter: rouge 

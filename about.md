@@ -10,7 +10,7 @@ title: About
 
 ## Briefly Introduce Myself
 
-Hi, I'm Wei Jing. I am a web developer who living in New Zealand. I have a keen interest in technology. I graduated from [AUT](http://www.aut.ac.nz/) and currently work as junior web developer at an e-commerce company. My career goal is to be a **full stack web developer**.
+Hi, I'm Wei Jing. I am a web developer who living in New Zealand. I have a keen interest in technology. I graduated from [AUT](http://www.aut.ac.nz/) and currently work as web developer at an e-commerce company. My career goal is to be a **full stack web developer**.
 
 ## Why build this website
 
